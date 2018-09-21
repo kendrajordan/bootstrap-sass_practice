@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Fascinate|Lato:400,700');
+$headfont: 'Fascinate', cursive;
+$pfont:'Lato', sans-serif;
+body{
+  background-color: #FFAFC5;
+  color:#553E4E;
+}
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+h1{
+  font-family: $headfont;
+  text-align: center;
+}
+p{
+  font-family: $pfont;
+
+}
